@@ -1,0 +1,15 @@
+{
+  "name": "terraform-plan-policy",
+  "version": "1.0.0",
+  "description": "Deterministic policy-as-code check for a single normalized Terraform resource change",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
